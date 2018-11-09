@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.lang.Iterable</OriginalElement>
+  <nodes>
+    <node x="831.0234375" y="170.0">java.beans.beancontext.BeanContext</node>
+    <node x="238.7734375" y="255.0">java.util.SortedSet</node>
+    <node x="598.2734375" y="341.5">java.util.concurrent.BlockingDeque</node>
+    <node x="667.3984375" y="85.0">java.util.Collection</node>
+    <node x="263.7734375" y="170.0">java.util.Set</node>
+    <node x="227.2734375" y="341.5">java.util.NavigableSet</node>
+    <node x="449.0234375" y="255.0">java.util.concurrent.BlockingQueue</node>
+    <node x="405.2734375" y="340.0">java.util.concurrent.TransferQueue</node>
+    <node x="672.0234375" y="255.0">java.util.Deque</node>
+    <node x="462.7109375" y="0.0">java.lang.Iterable</node>
+    <node x="25.0" y="85.0">java.nio.file.DirectoryStream</node>
+    <node x="1005.0234375" y="170.0">java.util.List</node>
+    <node x="0.0" y="170.0">java.nio.file.SecureDirectoryStream</node>
+    <node x="581.5078125" y="170.0">java.util.Queue</node>
+    <node x="801.0234375" y="255.0">java.beans.beancontext.BeanContextServices</node>
+    <node x="474.7109375" y="85.0">java.nio.file.Path</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.concurrent.TransferQueue" target="java.util.concurrent.BlockingQueue">
+      <point x="0.0" y="-19.0" />
+      <point x="-42.75" y="17.5" />
+    </edge>
+    <edge source="java.util.concurrent.BlockingDeque" target="java.util.Deque">
+      <point x="42.75" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="java.beans.beancontext.BeanContext" target="java.util.Collection">
+      <point x="0.0" y="-17.5" />
+      <point x="908.0234375" y="150.0" />
+      <point x="751.7734375" y="150.0" />
+      <point x="16.875" y="17.5" />
+    </edge>
+    <edge source="java.util.NavigableSet" target="java.util.SortedSet">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="java.util.SortedSet" target="java.util.Set">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="java.util.Queue" target="java.util.Collection">
+      <point x="0.0" y="-17.5" />
+      <point x="636.0078125" y="150.0" />
+      <point x="718.0234375" y="150.0" />
+      <point x="-16.875" y="17.5" />
+    </edge>
+    <edge source="java.nio.file.SecureDirectoryStream" target="java.nio.file.DirectoryStream">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="java.nio.file.DirectoryStream" target="java.lang.Iterable">
+      <point x="0.0" y="-17.5" />
+      <point x="115.5" y="60.0" />
+      <point x="482.2109375" y="60.0" />
+      <point x="-39.0" y="17.5" />
+    </edge>
+    <edge source="java.util.Set" target="java.util.Collection">
+      <point x="0.0" y="-17.5" />
+      <point x="306.2734375" y="140.0" />
+      <point x="684.2734375" y="140.0" />
+      <point x="-50.625" y="17.5" />
+    </edge>
+    <edge source="java.nio.file.Path" target="java.lang.Iterable">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="java.util.List" target="java.util.Collection">
+      <point x="0.0" y="-17.5" />
+      <point x="1048.0234375" y="140.0" />
+      <point x="785.5234375" y="140.0" />
+      <point x="50.625" y="17.5" />
+    </edge>
+    <edge source="java.util.Collection" target="java.lang.Iterable">
+      <point x="0.0" y="-17.5" />
+      <point x="734.8984375" y="60.0" />
+      <point x="560.2109375" y="60.0" />
+      <point x="39.0" y="17.5" />
+    </edge>
+    <edge source="java.util.Deque" target="java.util.Queue">
+      <point x="0.0" y="-17.5" />
+      <point x="726.5234375" y="230.0" />
+      <point x="663.2578125" y="230.0" />
+      <point x="27.25" y="17.5" />
+    </edge>
+    <edge source="java.util.concurrent.BlockingDeque" target="java.util.concurrent.BlockingQueue">
+      <point x="-42.75" y="-17.5" />
+      <point x="641.0234375" y="315.0" />
+      <point x="577.2734375" y="315.0" />
+      <point x="42.75" y="17.5" />
+    </edge>
+    <edge source="java.util.concurrent.BlockingQueue" target="java.util.Queue">
+      <point x="0.0" y="-17.5" />
+      <point x="534.5234375" y="230.0" />
+      <point x="608.7578125" y="230.0" />
+      <point x="-27.25" y="17.5" />
+    </edge>
+    <edge source="java.beans.beancontext.BeanContextServices" target="java.beans.beancontext.BeanContext">
+      <point x="0.0" y="-17.5" />
+      <point x="0.0" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="290.5" y="48.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="162.91296296296292" y="0.0">com.feeling.proxy.KindWomen</node>
+    <node x="115.85648148148147" y="274.0">com.feeling.proxy.WangPo</node>
+    <node x="312.55277777777775" y="137.0">com.feeling.proxy.JiaShi</node>
+    <node x="0.0" y="137.0">com.feeling.proxy.PanJinLian</node>
+    <node x="234.37129629629626" y="491.0">com.feeling.proxy.XiMenQing</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.feeling.proxy.XiMenQing" target="com.feeling.proxy.JiaShi">
+      <point x="72.66666666666669" y="-30.5" />
+      <point x="416.037962962963" y="466.0" />
+      <point x="445.55277777777775" y="466.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="com.feeling.proxy.WangPo" target="com.feeling.proxy.KindWomen">
+      <point x="33.25" y="-83.5" />
+      <point x="282.10648148148147" y="249.0" />
+      <point x="287.5" y="249.0" />
+      <point x="287.5" y="107.0" />
+      <point x="295.9129629629629" y="107.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="com.feeling.proxy.JiaShi" target="com.feeling.proxy.KindWomen">
+      <point x="-5.6843418860808015E-14" y="-43.5" />
+      <point x="445.5527777777777" y="117.0" />
+      <point x="402.3129629629629" y="117.0" />
+      <point x="106.39999999999998" y="43.5" />
+    </edge>
+    <edge source="com.feeling.proxy.XiMenQing" target="com.feeling.proxy.WangPo">
+      <point x="-72.66666666666669" y="-30.5" />
+      <point x="270.7046296296296" y="466.0" />
+      <point x="182.35648148148147" y="466.0" />
+      <point x="-66.5" y="83.5" />
+    </edge>
+    <edge source="com.feeling.proxy.WangPo" target="com.feeling.proxy.PanJinLian">
+      <point x="-99.75" y="-83.5" />
+      <point x="149.10648148148147" y="249.0" />
+      <point x="133.0" y="249.0" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="com.feeling.proxy.PanJinLian" target="com.feeling.proxy.KindWomen">
+      <point x="0.0" y="-43.5" />
+      <point x="133.0" y="117.0" />
+      <point x="189.51296296296292" y="117.0" />
+      <point x="-106.4" y="43.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2999999999999998" x="164.94642857142833" y="312.71428571428567" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

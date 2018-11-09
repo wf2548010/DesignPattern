@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="85.0">com.feeling.strategy.BlockEnemy</node>
+    <node x="195.25" y="170.0">com.feeling.strategy.ZhaoYun</node>
+    <node x="307.0" y="85.0">com.feeling.strategy.BackDoor</node>
+    <node x="176.46153846153845" y="-106.53846153846149">com.feeling.strategy.Context</node>
+    <node x="458.0" y="85.0">com.feeling.strategy.GivenGreenLight</node>
+    <node x="193.75" y="0.0">com.feeling.strategy.IStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.feeling.strategy.ZhaoYun" target="com.feeling.strategy.BackDoor">
+      <point x="24.80000000000001" y="-17.5" />
+      <point x="282.05" y="140.0" />
+      <point x="372.5" y="140.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="com.feeling.strategy.Context" target="com.feeling.strategy.IStrategy">
+      <point x="-29.75" y="-17.5" />
+      <point x="197.75" y="65.0" />
+      <point x="231.85" y="65.0" />
+      <point x="-25.400000000000006" y="17.5" />
+    </edge>
+    <edge source="com.feeling.strategy.GivenGreenLight" target="com.feeling.strategy.IStrategy">
+      <point x="0.0" y="-17.5" />
+      <point x="549.5" y="55.0" />
+      <point x="308.05" y="55.0" />
+      <point x="50.80000000000001" y="17.5" />
+    </edge>
+    <edge source="com.feeling.strategy.BlockEnemy" target="com.feeling.strategy.IStrategy">
+      <point x="0.0" y="-17.5" />
+      <point x="74.0" y="55.0" />
+      <point x="206.45" y="55.0" />
+      <point x="-50.80000000000001" y="17.5" />
+    </edge>
+    <edge source="com.feeling.strategy.BackDoor" target="com.feeling.strategy.IStrategy">
+      <point x="0.0" y="-17.5" />
+      <point x="372.5" y="65.0" />
+      <point x="282.65" y="65.0" />
+      <point x="25.400000000000006" y="17.5" />
+    </edge>
+    <edge source="com.feeling.strategy.ZhaoYun" target="com.feeling.strategy.GivenGreenLight">
+      <point x="49.60000000000002" y="-17.5" />
+      <point x="306.85" y="150.0" />
+      <point x="549.5" y="150.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="com.feeling.strategy.ZhaoYun" target="com.feeling.strategy.BlockEnemy">
+      <point x="-49.599999999999966" y="-17.5" />
+      <point x="207.65000000000003" y="150.0" />
+      <point x="74.0" y="150.0" />
+      <point x="0.0" y="17.5" />
+    </edge>
+    <edge source="com.feeling.strategy.ZhaoYun" target="com.feeling.strategy.Context">
+      <point x="-24.799999999999983" y="-17.5" />
+      <point x="232.45000000000002" y="140.0" />
+      <point x="197.75" y="140.0" />
+      <point x="-29.75" y="17.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="390.34289881658293" y="129.07692307692304" />
+  <SelectedNodes>
+    <node>com.feeling.strategy.Context</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
